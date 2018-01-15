@@ -29,10 +29,17 @@ class EmailParser
 
 def parse
   unique_emails = []
-  #unique_emails = @emails.split.collect{|x| x.split(",")}.flatten.uniq
   unique_emails = @emails.scan(/\w+@\w+.\w+\b/).uniq
+  # my solution 2 unique_emails = @emails.split.collect{|x| x.split(",")}.flatten.uniq
+  #avi's
+=begin
+emails.split.map do |email|
+    email.split(',')
+  end.flatten.uniq
+=end
   unique_emails
 end
+
 
 
 
