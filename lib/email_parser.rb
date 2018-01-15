@@ -45,6 +45,9 @@ end
 #don't overwhelm yourself with parsing by considering all possible ways to parse
 #select a strategy and focus on that strategy (and appropriate enumberable)
 #to find the appropriate enumberable, consider inputs and outputs
+#here we needed an enumerable that returned an array
+#some possible regex/enumerable patterns
+
 
 
 
