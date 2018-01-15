@@ -49,6 +49,7 @@ end
 #some possible regex/enumerable patterns
 
 #grep(regexp) => array
+#grep searches arrays and hashes and returns an array of all the items in the string that match
 #grep(regexp){|obj| block} => array
 #collect {|obj| block (maybe split by regexp pattern)}
 
