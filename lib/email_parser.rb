@@ -44,7 +44,7 @@ end
 #notes on solution and parsing in general
 #don't overwhelm yourself with parsing by considering all possible ways to parse
 #select a strategy and focus on that strategy (and appropriate enumberable)
-
+#to find the appropriate enumberable, consider inputs and outputs
 
 
 
