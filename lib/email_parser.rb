@@ -48,6 +48,10 @@ end
 #here we needed an enumerable that returned an array
 #some possible regex/enumerable patterns
 
+#grep(regexp) => array
+#grep(regexp){|obj| block} => array
+#collect {|obj| block (maybe split by regexp pattern)}
+
 
 
 
